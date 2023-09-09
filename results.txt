@@ -1,0 +1,190 @@
+Delivery locations: [(61, 56), (49, 36), (29, 51), (70, 42), (55, 47)]
+
+Starting time step: 0
+Cars available: 50
+Location is within drone range. Drone will start move to deliver (49, 36)
+Moves taken at each time step:
+Time step 0: Origin (40, 40).
+Time step 7: Arrived at (49, 36).
+
+Delivery completed successfully for (49, 36)
+Starting trip back to depot...
+
+Starting time step: 7
+Cars available: 51
+Location is within drone range. Drone will start move to depot (40, 40)
+Moves taken at each time step:
+Time step 7: Origin (49, 36).
+Time step 14: Arrived at (40, 40).
+
+Arrived at depot successfully
+Delivery locations remaining [(61, 56), (29, 51), (70, 42), (55, 47)]
+_____________________________________________________________
+
+Starting time step: 14
+Cars available: 55
+Location is within drone range. Drone will start move to deliver (29, 51)
+Moves taken at each time step:
+Time step 14: Origin (40, 40).
+Time step 24: Arrived at (29, 51).
+
+Delivery completed successfully for (29, 51)
+Starting trip back to depot...
+
+Starting time step: 24
+Cars available: 51
+Location is within drone range. Drone will start move to depot (40, 40)
+Moves taken at each time step:
+Time step 24: Origin (29, 51).
+Time step 34: Arrived at (40, 40).
+
+Arrived at depot successfully
+Delivery locations remaining [(61, 56), (70, 42), (55, 47)]
+_____________________________________________________________
+
+Starting time step: 34
+Cars available: 52
+Location is within drone range. Drone will start move to deliver (55, 47)
+Moves taken at each time step:
+Time step 34: Origin (40, 40).
+Time step 45: Arrived at (55, 47).
+
+Delivery completed successfully for (55, 47)
+Starting trip back to depot...
+
+Starting time step: 45
+Cars available: 52
+Location is within drone range. Drone will start move to depot (40, 40)
+Moves taken at each time step:
+Time step 45: Origin (55, 47).
+Time step 56: Arrived at (40, 40).
+
+Arrived at depot successfully
+Delivery locations remaining [(61, 56), (70, 42)]
+_____________________________________________________________
+
+Starting time step: 151
+Cars available: 30
+Location is out of drone range. Drone will start move to deliver at (61, 56)
+Moves taken at each time step:
+Time step 151: Origin (40, 40).
+Time step 152: Remained idle in location (40, 40).
+Time step 153: Remained idle in location (40, 40).
+Time step 160: Arrived on vehicle AV118.
+Time step 161: Remained idle in location (44, 50).
+Time step 162: Remained idle in location (45, 50).
+Time step 163: Remained idle in location (46, 50).
+Time step 164: Remained idle in location (47, 50).
+Time step 165: Remained idle in location (48, 50).
+Time step 166: Remained idle in location (49, 50).
+Time step 167: Remained idle in location (50, 50).
+Time step 168: Remained idle in location (51, 50).
+Time step 169: Remained idle in location (52, 50).
+Time step 170: Remained idle in location (53, 50).
+Time step 171: Remained idle in location (54, 50).
+Time step 172: Remained idle in location (55, 50).
+Time step 173: Remained idle in location (56, 50).
+Time step 174: Remained idle in location (57, 50).
+Time step 175: Remained idle in location (58, 50).
+Time step 176: Remained idle in location (59, 50).
+Time step 177: Remained idle in location (60, 50).
+Time step 178: Remained idle in location (61, 50).
+Time step 179: Remained idle in location (62, 50).
+Time step 180: Remained idle in location (63, 50).
+Time step 181: Remained idle in location (64, 50).
+Time step 186: Arrived at (61, 56).
+
+Delivery completed successfully for (61, 56)
+Starting trip back to depot...
+
+Starting time step: 186
+Cars available: 41
+Location is out of drone range. Drone will start move to depot at (40, 40)
+Moves taken at each time step:
+Time step 186: Origin (61, 56).
+Time step 187: Remained idle in location (61, 56).
+Time step 188: Remained idle in location (61, 56).
+Time step 189: Remained idle in location (61, 56).
+Time step 190: Remained idle in location (61, 56).
+Time step 191: Remained idle in location (61, 56).
+Time step 192: Remained idle in location (61, 56).
+Time step 193: Remained idle in location (61, 56).
+Time step 194: Remained idle in location (61, 56).
+Time step 199: Arrived on vehicle AV155.
+Time step 200: Remained idle in location (55, 57).
+Time step 201: Remained idle in location (55, 56).
+Time step 202: Remained idle in location (55, 55).
+Time step 203: Remained idle in location (55, 54).
+Time step 204: Remained idle in location (55, 53).
+Time step 205: Remained idle in location (55, 52).
+Time step 217: Arrived at (40, 40).
+
+Arrived at depot successfully
+Delivery locations remaining [(70, 42)]
+_____________________________________________________________
+
+Starting time step: 221
+Cars available: 46
+Location is out of drone range. Drone will start move to deliver at (70, 42)
+Moves taken at each time step:
+Time step 221: Origin (40, 40).
+Time step 225: Arrived on vehicle AV174.
+Time step 226: Remained idle in location (43, 43).
+Time step 227: Remained idle in location (43, 42).
+Time step 228: Remained idle in location (43, 41).
+Time step 229: Remained idle in location (43, 40).
+Time step 230: Remained idle in location (43, 39).
+Time step 231: Remained idle in location (43, 38).
+Time step 232: Remained idle in location (43, 37).
+Time step 234: Arrived on vehicle AV181.
+Time step 235: Remained idle in location (44, 34).
+Time step 236: Remained idle in location (45, 34).
+Time step 237: Remained idle in location (46, 34).
+Time step 238: Remained idle in location (47, 34).
+Time step 239: Remained idle in location (48, 34).
+Time step 240: Remained idle in location (49, 34).
+Time step 241: Remained idle in location (50, 34).
+Time step 242: Remained idle in location (51, 34).
+Time step 243: Remained idle in location (52, 34).
+Time step 244: Remained idle in location (53, 34).
+Time step 245: Remained idle in location (54, 34).
+Time step 246: Remained idle in location (55, 34).
+Time step 247: Remained idle in location (56, 34).
+Time step 248: Remained idle in location (57, 34).
+Time step 249: Remained idle in location (58, 34).
+Time step 250: Remained idle in location (59, 34).
+Time step 251: Remained idle in location (60, 34).
+Time step 259: Arrived at (70, 42).
+
+Delivery completed successfully for (70, 42)
+Starting trip back to depot...
+
+Starting time step: 259
+Cars available: 42
+Location is out of drone range. Drone will start move to depot at (40, 40)
+Moves taken at each time step:
+Time step 259: Origin (70, 42).
+Time step 260: Remained idle in location (70, 42).
+Time step 261: Remained idle in location (70, 42).
+Time step 262: Remained idle in location (70, 42).
+Time step 263: Remained idle in location (70, 42).
+Time step 264: Remained idle in location (70, 42).
+Time step 265: Arrived on vehicle AV212.
+Time step 266: Remained idle in location (70, 44).
+Time step 267: Remained idle in location (70, 45).
+Time step 268: Remained idle in location (69, 45).
+Time step 269: Remained idle in location (68, 45).
+Time step 270: Remained idle in location (67, 45).
+Time step 271: Remained idle in location (66, 45).
+Time step 272: Remained idle in location (65, 45).
+Time step 273: Remained idle in location (64, 45).
+Time step 274: Remained idle in location (63, 45).
+Time step 275: Remained idle in location (62, 45).
+Time step 276: Remained idle in location (61, 45).
+Time step 277: Remained idle in location (60, 45).
+Time step 290: Arrived at (40, 40).
+
+Arrived at depot successfully
+_____________________________________________________________
+
+ALL DELIVERIES COMPLETED AT TIME STEP 259
