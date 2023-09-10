@@ -1,22 +1,25 @@
 # AV-Drone-Delivery
-This project simulates a drone delivery system that uses an underlying car-sharing Autonomous Vehicle (AV) infrastructure as intermediate transport to perform out-of-range deliveries.
+This project is all about simulating a drone delivery system that partners up with car-sharing Autonomous Vehicles (AVs) to tackle out-of-range deliveries.
 
-## Model
-The car-sharing AV system performs trips that are generated randomly and operates in an 80-by-80 kilometer grid, where each square cell has a length of 1 kilometer. The AVs are assumed to travel at a constant speed and require one time step to move from one cell to another.
+## The Setup
+* **Grid Structure:** In this project, we operate within an 80x80 kilometer grid, where each square corresponds to a distance of 1 kilometer. 
+* **Autonomous Vehicles (AVs):** Our fleet of AVs traverses this grid, maintaining a constant speed, advancing one cell per time step, and executing trips generated randomly.
+* **Drones:** Now, the exciting part is the drones. They start their journey from a base depot, fly to delivery spots, and drop off packages. But here's the twist: drones can only fly for a limited time before needing to recharge. To get around this, they can hop on an AV to get closer to deliveries that are far away. After each delivery, they return to the depot for a recharge.
 
-The drone starts its journey from the depot and flies to delivery points to complete orders. Since the drone is limited by a maximum flight time, it can temporarily ride on top of AVs to move closer to out-of-range delivery locations. After the order is delivered, the drone returns to the depot to swap its depleted battery.
+## The Simulation
+Let's talk strategy. The drone's route consists of three types of moves:
+* Flying to the destination (delivery point or depot)
+* Catching a ride on an AV
+* Stay idle
 
-## Simulation
-The drone's route from origin to destination is made up of a combination of multiple moves. There are three possible moves:
-1) Move to the destination (delivery point or depot)
-2) Move to an AV
-3) Stay idle
+When the drone isn't airborne, it has to make a move during each time step. For instance, if it's riding on an AV, it might stay idle for a bit until it gets closer to its destination.
 
-While the drone is not flying, it is required to perform a move during every time step. For example, if the drone is on top of an AV it might remain idle for a couple of time steps until it is close enough to the destination.
-
-The objective is to minimize the number of time steps required to complete all deliveries. Hence, a stochastic hill climbing algorithm is implemented to iteratively make changes to the moves in a solution until a near-optimal solution is achieved.
+Our goal is simple: minimize the number of time steps needed to wrap up all deliveries. That's where our stochastic hill climbing algorithm comes into play. It tweaks our delivery plan to get us as close as possible to an optimal solution.
 
 ## Getting Started
-1) Download the repository
-2) OPTIONAL: Change the default values in ```Constants.py```
-3) Run ```sim.py``` to start the simulation
+Ready to dive in? Follow these steps:
+1) Clone the repository.
+2) If you're feeling adventurous, tweak the default settings in ```Constants.py```.
+3) Start the simulation by running ```simulation.py```.
+
+Have fun exploring and experimenting with the AV-Drone-Delivery system! 📦🚗🚁
